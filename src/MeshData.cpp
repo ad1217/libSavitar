@@ -17,7 +17,7 @@
  */
 
 #include "MeshData.h"
-#include "../pugixml/src/pugixml.hpp"
+#include <pugixml.hpp>
 #include <cstring>
 #include <iostream>
 #include <stdexcept> //For std::runtime_error.

@@ -15,7 +15,7 @@ if(BUILD_TESTS)
     find_package(Threads QUIET)
 endif()
 
-add_subdirectory(pugixml)
+find_package(pugixml REQUIRED)
 
 if(BUILD_PYTHON)
     list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
